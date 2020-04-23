@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+    <style>
+        *{
+            background-color: #222831;
+        }
+        h2,p{
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <style>
+        canvas{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h2>Mini Ping pong game with an AI</h2>
+    <p>Hover your mouse on the left to move your paddle. Enjoy the game!</p>
+    
+    <div>
+       
+        <canvas id="pong" width="600" height="400"></canvas>
+        
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
